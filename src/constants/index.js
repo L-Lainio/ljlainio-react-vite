@@ -14,8 +14,8 @@ export const EXPERIENCES = [
         year: "2024 - Present",
         role: "Junior Full Stack Developer",
         company: "EdEx University of Central Florida",
-        description: `I completed a 12 week comprehensive bootcamp that `,
-        technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+        description: `I completed a 12 week comprehensive bootcamp that covered the MERN stack, including MongoDB, Express.js, React.js, and Node.js. I gained hands-on experience with Express.js for backend development, SQL and NoSQL databases, Object-Relational Mapping (ORM), and building Model-View-Controller (MVC) architectures. I am enthusiastic about crafting Progressive Web Applications (PWAs) and am proficient in the MERN stack.`,
+        technologies: ["Javascript", "React.js", "Next.js", "mongoDB", "Express.js", "Node.js", "GraphQL", "Apollo", "Tailwindcss", "mui", "Materialize", "HTML", "CSS", "API", "Insomnia", "Heroku", "Netlify", "Vercel"],
     },
 
     {
