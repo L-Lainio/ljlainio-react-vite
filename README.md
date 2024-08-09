@@ -15,7 +15,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2a8ee8a-81f2-4bd0-b918-05d0a06972bd/deploy-status)](https://app.netlify.com/sites/loralainio/deploys)
 
 
-Utlizing open-source to create this personal profiel for myself.
+Utilizing open-source to create this personal profile for myself.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -26,11 +26,12 @@ Currently, two official plugins are available:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/integration/start/deploy?repository=https://github.com/netlify/sdk-build-event-handler-template)
 
-I want to document and note that i utilized the directions and inforation from
+I want to document and note that I used the directions from:
 https://github.com/kushald/react-portfolio-assets-kevin
 
 following along with his youtube.com tutorial:
 https://www.youtube.com/watch?v=_63mEm3AMSY&ab_channel=compiletab
+
 
 ## Table of Contents
 
@@ -68,6 +69,7 @@ React Challenge: React Portfolio Having completed various projects, my current t
 For this module challenge, I will deploy this application to Netlify. I will follow the instructions provided in activity 27-Evr_Git-Deploy to create a build that I can deploy.
 
 The task involves creating a React portfolio to showcase projects and skills, enabling collaboration with other developers. The portfolio must be deployed on Netlify and meet specific acceptance criteria. Employers can view the portfolio to assess candidates' skills in building single-page applications. The portfolio should include sections like About Me, Portfolio, Contact, and Resume, with specific features like navigation, project images with links, a contact form, and links to social profiles.
+
 
 ## Deployed on netlify:
 
