@@ -14,7 +14,7 @@ function ContactForm() {
 
                 <div className="formcarry-block">
                     <label htmlFor="fc-generated-1-email">Your Email Address</label>
-                    <input type="email" name="email" id="fc-generated-1-email" placeholder="john@doe.com" />
+                    <input type="email" name="email" id="fc-generated-1-email" placeholder="johndoe@email.com" />
                 </div>
 
                 <div className="formcarry-block">
