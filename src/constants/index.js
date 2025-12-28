@@ -5,9 +5,18 @@ import project3 from "../assets/projects/project3.jpg";
 
 export const HERO_CONTENT = `Hello! I'm Lora, a dedicated mother who recently transitioned into the tech industry. I successfully completed a rigorous full stack coding bootcamp with the University of Central Florida, gaining proficient skills in web development. Beyond coding, I prioritize quality time with my family. My diverse background in upholstery, entrepreneurship, and personal assistance has honed my initiative, fast-learning abilities, and problem-solving skills. I'm enthusiastic about applying my tech skills and past experiences to make a meaningful impact in my new career path.`;
 
-export const ABOUT_TEXT = `Additionally, I bring hands-on experience with Express.js for backend development, SQL and NoSQL databases, Object-Relational Mapping (ORM), and building Model-View-Controller (MVC) architectures. My enthusiasm lies in crafting Progressive Web Applications (PWAs) and I am proficient in the MERN (MongoDB, Express.js, React, Node.js) stack.
+export const ABOUT_TEXT = `🚀 Hello World, I'm Lora Lainio 👋
 
-Outside of coding, I prioritize quality time with my family as a dedicated parent. My diverse background spans upholstery, entrepreneurship, and personal assistance, which have equipped me with a proactive approach, quick learning abilities, and strong problem-solving skills. I am eager to apply my technical skills and past experiences to contribute effectively to my new career path.`;
+Full-Stack Developer | Data Security & Tax Professional (PTIN)
+
+I bridge the gap between complex financial compliance and modern web technology, bringing a security-first mindset from my tax preparation background to every line of code I write.
+
+🛡️ Secure Development Philosophy
+
+- **Data Integrity:** Security-first mindset from tax preparation ensures robust, compliant applications.
+- **Empathy in Design:** Building with accessibility for all users, making technology inclusive and user-friendly.
+
+My journey combines financial expertise with cutting-edge web development, creating solutions that are not only functional but also secure and accessible.`;
 
 export const EXPERIENCES = [
     {
