@@ -3,28 +3,36 @@ import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
 
 
-export const HERO_CONTENT = `Hello! I'm Lora, a dedicated mother who recently transitioned into the tech industry. I successfully completed a rigorous full stack coding bootcamp with the University of Central Florida, gaining proficient skills in web development. Beyond coding, I prioritize quality time with my family. My diverse background in upholstery, entrepreneurship, and personal assistance has honed my initiative, fast-learning abilities, and problem-solving skills. I'm enthusiastic about applying my tech skills and past experiences to make a meaningful impact in my new career path.`;
-
-export const ABOUT_TEXT = `🚀 Hello World, I'm Lora Lainio 👋
+export const HERO_CONTENT = 
+ `🚀 Hello World, I'm Lora Lainio 👋
 
 Full-Stack Developer | Data Security & Tax Professional (PTIN)
 
-I bridge the gap between complex financial compliance and modern web technology, bringing a security-first mindset from my tax preparation background to every line of code I write.
+I am a developer who bridges the gap between complex financial compliance and modern web technology. With an Active PTIN and experience in the Intuit/TurboTax ecosystem, I bring a "Security-First" mindset to software development, specializing in the handling of sensitive PII and secure data management.
 
 🛡️ Secure Development Philosophy
 
-- **Data Integrity:** Security-first mindset from tax preparation ensures robust, compliant applications.
-- **Empathy in Design:** Building with accessibility for all users, making technology inclusive and user-friendly.
+- **Data Integrity:** I prioritize "Security-by-Design," leveraging PostgreSQL for ACID compliance and MongoDB for scalable, flexible data architectures.
+- **Compliance-Driven:** My background in pharmacy (HIPAA) and tax law ensures I build with strict data privacy and regulatory standards in mind.
+- **Empathy in Design:** As a caregiver and former service professional, I build with accessibility (a11y) and user safety as core requirements, not afterthoughts.
 
-My journey combines financial expertise with cutting-edge web development, creating solutions that are not only functional but also secure and accessible.`;
+I thrive on fixing complex problems—from debugging deep SQL joins to navigating intricate tax regulations—making systems more efficient and secure for everyone.`;
+
 
 export const EXPERIENCES = [
+    {
+        year: "Jan 2025 – Nov 2025",
+        role: "Advisor II, Customer Service",
+        company: "Concentrix (Contract for Intuit/TurboTax)",
+        description: "Served as a primary technical contact for the Intuit program, troubleshooting software issues and state/federal filing requirements during high-volume tax season[cite: 68, 69, 70, 71]. Managed sensitive customer data (PII) with 100% adherence to security protocols[cite: 72].",
+        technologies: ["TurboTax Software", "Technical Troubleshooting", "Data Compliance (PII)", "Tax Law Fundamentals"],
+    },
     {
         year: "2024 - Present",
         role: "Junior Full Stack Developer",
         company: "EdEx University of Central Florida",
         description: `I completed a 12 week comprehensive bootcamp that covered the MERN stack, including MongoDB, Express.js, React.js, and Node.js. I gained hands-on experience with Express.js for backend development, SQL and NoSQL databases, Object-Relational Mapping (ORM), and building Model-View-Controller (MVC) architectures. I am enthusiastic about crafting Progressive Web Applications (PWAs) and am proficient in the MERN stack.`,
-        technologies: ["Javascript", "React.js", "Next.js", "mongoDB", "Express.js", "Node.js", "GraphQL", "Apollo", "Tailwindcss", "mui", "Materialize", "HTML", "CSS", "API", "Insomnia", "Heroku", "Netlify", "Vercel"],
+           technologies: ["TypeScript", "PostgreSQL", "React", "Node.js", "MongoDB", "Docker", "GraphQL"],
     },
 
     {
@@ -74,7 +82,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-    address: "Lake City, Florida ",
-    phoneNo: "+1 (772)475-9943 ",
     email: "lora.lainio.it@gmail.com",
 };
