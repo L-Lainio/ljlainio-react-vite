@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <link href="./output.css" rel="stylesheet">
   <title>Lora Lainio</title>
 </head>
 
@@ -15,3 +14,12 @@
 </body>
 
 </html>
+
+export default {
+  darkMode: 'class', // Critical for manual toggling
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};

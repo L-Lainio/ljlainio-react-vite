@@ -1,4 +1,5 @@
 import logo from "../assets/images/LJLLogo3.png";
+import aboutMeImg from "../assets/images/aboutMe.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -27,7 +28,7 @@ const Navbar = () => {
             <div className="flex flex-shrink-0 items-center">
                 <img className="m-2 w-20" src={logo} alt="logo" />
             </div>
-            <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+            <div className="m-8 flex items-center justify-center gap-4 text-2xl text-black dark:text-white">
                 <button onClick={toggleDarkMode} className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700">
                     {darkMode ? <FaSun /> : <FaMoon />}
                 </button>
@@ -35,6 +36,9 @@ const Navbar = () => {
                 <a href="https://github.com/L-Lainio"><FaGithub /></a>
                 <a href="https://x.com/LLainio"><FaXTwitter /></a>
                 <a href="https://x.com/LainioLora64370"><FaInstagram /></a>
+            </div>
+            <div className="flex justify-center mt-4">
+                <img className="w-32 h-32 rounded-full object-cover" src={aboutMeImg} alt="About Me" />
             </div>
         </nav>
     )

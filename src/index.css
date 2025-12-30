@@ -7,3 +7,17 @@
 :root {
   font-family: "Lora", serif;
 }
+
+.warm-footer {
+    background-color: transparent;
+    color: #5a3e36; /* Rich brown text */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    border-top: 2px solid #d8b4a0;
+}
+
+.warm-footer p {
+    margin: 0;
+}

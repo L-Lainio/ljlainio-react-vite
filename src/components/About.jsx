@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import aboutImage from "../assets/images/Hanus1.png";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -26,10 +25,10 @@ const About = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="max-w-5xl mx-auto"
+          className="max-w-3xl mx-auto text-center"
         >
           {/* Animated Title */}
-          <h2 className="text-5xl font-bold mb-8 text-center">
+          <h2 className="text-5xl font-bold mb-8">
             {title.split("").map((char, i) => (
               <motion.span key={i} variants={letterVariants}>
                 {char}
@@ -37,28 +36,13 @@ const About = () => {
             ))}
           </h2>
 
-          {/* Content Grid */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            {/* Image */}
-            <motion.div
-              variants={letterVariants}
-              className="flex justify-center"
-            >
-              <img 
-                src={aboutImage} 
-                alt="Lora Lainio" 
-                className="rounded-lg shadow-lg w-full max-w-md"
-              />
-            </motion.div>
-
-            {/* Animated Description */}
-            <motion.p 
-              variants={letterVariants}
-              className="text-lg leading-relaxed text-neutral-600 dark:text-neutral-400"
-            >
-              {bio}
-            </motion.p>
-          </div>
+          {/* Animated Description */}
+          <motion.p 
+            variants={letterVariants}
+            className="text-lg leading-relaxed text-neutral-600 dark:text-neutral-400"
+          >
+            {bio}
+          </motion.p>
         </motion.div>
       </div>
     </section>
