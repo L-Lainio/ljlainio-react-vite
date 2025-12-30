@@ -3,78 +3,95 @@ import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
 
 
-export const HERO_CONTENT = `Hello! I'm Lora, a dedicated mother who recently transitioned into the tech industry. I successfully completed a rigorous full stack coding bootcamp with the University of Central Florida, gaining proficient skills in web development. Beyond coding, I prioritize quality time with my family. My diverse background in upholstery, entrepreneurship, and personal assistance has honed my initiative, fast-learning abilities, and problem-solving skills. I'm enthusiastic about applying my tech skills and past experiences to make a meaningful impact in my new career path.`;
+export const HERO_CONTENT = `
+I am Lora Lainio, a Tax & Compliance Specialist and Full-Stack Developer based in Florida. I specialize in bridging the gap between complex financial compliance and modern web technology, utilizing a security-first mindset developed through high-volume experience within the Intuit/TurboTax ecosystem.
 
-export const ABOUT_TEXT = `🚀 Hello World, I'm Lora Lainio 👋
+Beyond development, I am an IRS Enrolled Agent candidate with a multifaceted professional background spanning entrepreneurship, pharmacy technology, and administrative operations. These diverse experiences have cultivated a high degree of adaptability and a rigorous commitment to data integrity—values I integrate into every secure, user-focused digital solution I build.
+`;
 
-Full-Stack Developer | Data Security & Tax Professional (PTIN)
+export const ABOUT_TEXT = `Full-Stack Developer | Data Security & Tax Professional 
 
-I bridge the gap between complex financial compliance and modern web technology, bringing a security-first mindset from my tax preparation background to every line of code I write.
+I leverage extensive experience in navigating real-time customer challenges and maintaining strict data compliance standards—including PII, HIPAA, and Tax Law—to architect robust web applications. Currently advancing my expertise as an Enrolled Agent candidate, I thrive on solving complex technical and regulatory problems.
 
 🛡️ Secure Development Philosophy
 
-- **Data Integrity:** Security-first mindset from tax preparation ensures robust, compliant applications.
-- **Empathy in Design:** Building with accessibility for all users, making technology inclusive and user-friendly.
+- **Data Integrity:** My background managing sensitive tax and pharmacy records ensures that security and privacy are never afterthoughts.
+- **Empathy in Design:** Years of experience in caregiving and high-stakes customer service drive me to build with accessibility and user safety at the forefront.
+- **Strategic Problem Solver:** Whether I am debugging complex SQL joins or streamlining administrative workflows, I am dedicated to creating efficient, scalable systems that foster growth.`;
 
-My journey combines financial expertise with cutting-edge web development, creating solutions that are not only functional but also secure and accessible.`;
+export const TECHNOLOGIES = [
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Git/GitHub",
+    "API Integration",
+    "RESTful Services",
+    "Materialize",
+    "Insomnia",
+    "Quickbooks",
+    "Microsoft 365",
+    "Tax Law Fundamentals",
+    "Data Compliance (PII, HIPAA)",
+    "Software Troubleshooting",
+    "Workflow Optimization"
+];
 
 export const EXPERIENCES = [
     {
-        year: "2024 - Present",
-        role: "Junior Full Stack Developer",
-        company: "EdEx University of Central Florida",
-        description: `I completed a 12 week comprehensive bootcamp that covered the MERN stack, including MongoDB, Express.js, React.js, and Node.js. I gained hands-on experience with Express.js for backend development, SQL and NoSQL databases, Object-Relational Mapping (ORM), and building Model-View-Controller (MVC) architectures. I am enthusiastic about crafting Progressive Web Applications (PWAs) and am proficient in the MERN stack.`,
-        technologies: ["Javascript", "React.js", "Next.js", "mongoDB", "Express.js", "Node.js", "GraphQL", "Apollo", "Tailwindcss", "mui", "Materialize", "HTML", "CSS", "API", "Insomnia", "Heroku", "Netlify", "Vercel"],
+        year: "Jan 2025 - Nov 2025",
+        role: "Advisor II, Customer Service (Intuit/TurboTax)",
+        company: "Concentrix",
+        description: `Served as a primary technical contact for the Intuit program, troubleshooting TurboTax software issues and navigating complex federal/state filing requirements. Managed sensitive PII with strict adherence to security protocols while maintaining high customer satisfaction scores in a high-volume, remote environment.`,
+        technologies: ["Tax Law Fundamentals", "Data Compliance (PII)", "Software Troubleshooting", "Customer Experience"],
     },
-
+    {
+        year: "2024 - Present",
+        role: "Full Stack Web Developer",
+        company: "Self-Employed",
+        description: `Develop and deploy full-stack applications using the MERN stack. Focus on creating clean, scalable JavaScript code and designing robust database architectures using MySQL and MongoDB. Recently completed an intensive UCF Full-Stack Boot Camp.`,
+        technologies: ["Javascript", "React.js", "Node.js", "Express.js", "mongoDB", "MySQL", "Tailwind CSS", "Git/GitHub"],
+    },
     {
         year: "2017 - 2024",
-        role: "Upholsterer & Personal Assistant",
+        role: "Upholsterer & Administrator",
         company: "Bob's Tops & Upholstery",
-        description: `Tasks included managing the front office, customer service, and assisting with upholstery projects. I also provided personal assistance to the owner, including managing his schedule, organizing his office, and running errands.`,
-        technologies: ["Microsoft365", "Google", "ios", "Quickbooks"],
-    },
-
-    {
-        year: "2011 - 2019",
-        role: "Personal Assistant & Entrepreneur",
-        company: "Self-Employed & Entrepreneur",
-        description: `Administrative tasks include Scheduling appointments, meetings, and travel arrangements, Handling phone calls, emails, and correspondence, managing paperwork, filing systems, and maintaining records, providing personal support such as shopping, errands, and household management, Handling personal appointments and commitments.`,
-        technologies: ["HTML", "CSS", "Microsoft", "Quickbooks"],
-    },
-
+        description: `Managed all financial and administrative operations, including inventory, account maintenance, and tax filing. Streamlined order processing workflows, improving accuracy and reducing customer resolution time by over 15%.`,
+        technologies: ["Quickbooks", "Administrative Operations", "Workflow Optimization", "Microsoft 365"],
+    }
 ];
 
 export const PROJECTS = [
     {
         title: "Facts and Quotes",
         image: project1,
-        description:
-            "Facts and Quotes by a single keyword, plus favorites.",
-        technologies: ["HTML", "CSS", "API", "JavaScript", "Materilize"],
+        description: "An interactive application allowing users to search for facts and quotes by keyword with a 'favorites' functionality.",
+        technologies: ["HTML", "CSS", "API", "JavaScript", "Materialize"],
         url: 'https://Abbate11.github.io/Today-Facts-and-Quotes/'
     },
     {
         title: "Express Note Taker",
         image: project2,
-        description:
-            "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+        description: "A specialized application for task management, featuring creation, assignment, and progress tracking.",
         technologies: ["HTML", "CSS", "Express.js", "Node.js", "JavaScript", "Insomnia"],
         url: 'https://express-jsnotetaker.onrender.com'
     },
     {
-        title: "Root2Roast",
+        title: "Weather Dashboard",
         image: project3,
-        description:
-            "A personal portfolio website showcasing projects, skills, and contact information.",
-        technologies: ["HTML", "Tailwindcss", "React", "Node.js", "MongoDB", "Apollo GraphQL", "mui", "Express"],
-        url: 'https://root2roast.onrender.com/'
+        description: "A real-time weather tracking application. 2025 Refactor includes Geocoding and Debouncing for optimized performance.",
+        technologies: ["JavaScript", "Fetch API", "Geocoding", "CSS"],
+        url: 'https://loralainio.netlify.app/'
     },
-
 ];
 
 export const CONTACT = {
-    address: "Lake City, Florida ",
-    phoneNo: "+1 (772)475-9943 ",
-    email: "lora.lainio.it@gmail.com",
+    address: "Florida, USA",
+    phoneNo: "", 
+    email: "",
 };
