@@ -11,49 +11,50 @@ const container = (delay) => ({
     },
 });
 
+
 const Hero = () => {
     return (
-        <div className="boarder-b boarder-neutral-900 pb-4 lg:mb-35">
-            <div className="flex flex-wrap">
-                <div className="w-full lg:w-1/2">
-                    <div className="flex flex-col itmes-center lg:items-start">
-                        <motion.h1
-                            variants={container(0)}
-                            initial="hidden"
-                            animate="visible"
-                            className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
-                            Lora Lainio
-                        </motion.h1>
-                        <motion.span
-                            variants={container(0.5)}
-                            initial="hidden"
-                            animate="visible"
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-                            Full Stack Developer
-                        </motion.span>
-                        <motion.p
-                            variants={container(1)}
-                            initial="hidden"
-                            animate="visible"
-                            className="my-2 max-w-xl py-6 font-light tracking-tighter">
-                            {HERO_CONTENT}
-                        </motion.p>
-                    </div>
+        <>
+            {/* Hero Section */}
+            <section className="py-20 px-6 text-left border-b border-neutral-800">
+                <h1 className="text-5xl font-bold text-white tracking-tight">Lora Lainio</h1>
+                <p className="text-xl text-neutral-400 mt-6 max-w-3xl leading-relaxed">
+                    Full-Stack Developer bridging the gap between <span className="text-white font-semibold">financial compliance</span> and <span className="text-white font-semibold">modern web technology</span>.
+                </p>
+                <div className="mt-10">
+                    <a href="#contact" className="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-neutral-200 transition-colors">
+                        Get In Touch
+                    </a>
                 </div>
-                <div className="w-full lg:w-1/2 lg:p-8">
-                    <div className="flex justify-center">
-                        <motion.img
-                            variants={container(1.5)}
-                            initial="hidden"
-                            animate="visible"
-                            className="rounded-2xl"
-                            src={profilePic}
-                            alt="Lora Lainio"
-                        />
-                    </div>
+            </section>
+
+            {/* Value Props Section */}
+            <section className="grid md:grid-cols-3 gap-6 py-16 px-6">
+                <div className="bg-neutral-900/50 border border-neutral-800 p-8 rounded-2xl hover:border-neutral-700 transition-all">
+                    <div className="text-2xl mb-4">🛡️</div>
+                    <h3 className="text-white font-bold text-lg mb-2">Data Integrity</h3>
+                    <p className="text-neutral-400 text-sm leading-relaxed">
+                        Prioritizing "Security-by-Design" with ACID-compliant architectures like PostgreSQL.
+                    </p>
                 </div>
-            </div>
-        </div>
+
+                <div className="bg-neutral-900/50 border border-neutral-800 p-8 rounded-2xl hover:border-neutral-700 transition-all">
+                    <div className="text-2xl mb-4">⚖️</div>
+                    <h3 className="text-white font-bold text-lg mb-2">Compliance-Driven</h3>
+                    <p className="text-neutral-400 text-sm leading-relaxed">
+                        Expertise in HIPAA and Tax Law (PTIN) ensures strict privacy and regulatory standards.
+                    </p>
+                </div>
+
+                <div className="bg-neutral-900/50 border border-neutral-800 p-8 rounded-2xl hover:border-neutral-700 transition-all">
+                    <div className="text-2xl mb-4">♿</div>
+                    <h3 className="text-white font-bold text-lg mb-2">Inclusive Tech</h3>
+                    <p className="text-neutral-400 text-sm leading-relaxed">
+                        Building with a11y as a core requirement to ensure user safety and accessibility.
+                    </p>
+                </div>
+            </section>
+        </>
     );
 };
 

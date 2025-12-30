@@ -3,14 +3,20 @@ import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
 
 
+<<<<<<< HEAD
 export const HERO_CONTENT = `
 I am Lora Lainio, a Tax & Compliance Specialist and Full-Stack Developer based in Florida. I specialize in bridging the gap between complex financial compliance and modern web technology, utilizing a security-first mindset developed through high-volume experience within the Intuit/TurboTax ecosystem.
 
 Beyond development, I am an IRS Enrolled Agent candidate with a multifaceted professional background spanning entrepreneurship, pharmacy technology, and administrative operations. These diverse experiences have cultivated a high degree of adaptability and a rigorous commitment to data integrity—values I integrate into every secure, user-focused digital solution I build.
 `;
+=======
+export const HERO_CONTENT = 
+ `🚀 Hello World, I'm Lora Lainio 👋
+>>>>>>> 09019eca44df58be35786367ff8625449d24c29e
 
 export const ABOUT_TEXT = `Full-Stack Developer | Data Security & Tax Professional 
 
+<<<<<<< HEAD
 I leverage extensive experience in navigating real-time customer challenges and maintaining strict data compliance standards—including PII, HIPAA, and Tax Law—to architect robust web applications. Currently advancing my expertise as an Enrolled Agent candidate, I thrive on solving complex technical and regulatory problems.
 
 🛡️ Secure Development Philosophy
@@ -56,6 +62,33 @@ export const EXPERIENCES = [
         company: "Self-Employed",
         description: `Develop and deploy full-stack applications using the MERN stack. Focus on creating clean, scalable JavaScript code and designing robust database architectures using MySQL and MongoDB. Recently completed an intensive UCF Full-Stack Boot Camp.`,
         technologies: ["Javascript", "React.js", "Node.js", "Express.js", "mongoDB", "MySQL", "Tailwind CSS", "Git/GitHub"],
+=======
+I am a developer who bridges the gap between complex financial compliance and modern web technology. With an Active PTIN and experience in the Intuit/TurboTax ecosystem, I bring a "Security-First" mindset to software development, specializing in the handling of sensitive PII and secure data management.
+
+🛡️ Secure Development Philosophy
+
+- **Data Integrity:** I prioritize "Security-by-Design," leveraging PostgreSQL for ACID compliance and MongoDB for scalable, flexible data architectures.
+- **Compliance-Driven:** My background in pharmacy (HIPAA) and tax law ensures I build with strict data privacy and regulatory standards in mind.
+- **Empathy in Design:** As a caregiver and former service professional, I build with accessibility (a11y) and user safety as core requirements, not afterthoughts.
+
+I thrive on fixing complex problems—from debugging deep SQL joins to navigating intricate tax regulations—making systems more efficient and secure for everyone.`;
+
+
+export const EXPERIENCES = [
+    {
+        year: "Jan 2025 – Nov 2025",
+        role: "Advisor II, Customer Service",
+        company: "Concentrix (Contract for Intuit/TurboTax)",
+        description: "Served as a primary technical contact for the Intuit program, troubleshooting software issues and state/federal filing requirements during high-volume tax season[cite: 68, 69, 70, 71]. Managed sensitive customer data (PII) with 100% adherence to security protocols[cite: 72].",
+        technologies: ["TurboTax Software", "Technical Troubleshooting", "Data Compliance (PII)", "Tax Law Fundamentals"],
+    },
+    {
+        year: "2024 - Present",
+        role: "Junior Full Stack Developer",
+        company: "EdEx University of Central Florida",
+        description: `I completed a 12 week comprehensive bootcamp that covered the MERN stack, including MongoDB, Express.js, React.js, and Node.js. I gained hands-on experience with Express.js for backend development, SQL and NoSQL databases, Object-Relational Mapping (ORM), and building Model-View-Controller (MVC) architectures. I am enthusiastic about crafting Progressive Web Applications (PWAs) and am proficient in the MERN stack.`,
+           technologies: ["TypeScript", "PostgreSQL", "React", "Node.js", "MongoDB", "Docker", "GraphQL"],
+>>>>>>> 09019eca44df58be35786367ff8625449d24c29e
     },
     {
         year: "2017 - 2024",
@@ -91,7 +124,11 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
+<<<<<<< HEAD
     address: "Florida, USA",
     phoneNo: "", 
     email: "",
+=======
+    email: "lora.lainio.it@gmail.com",
+>>>>>>> 09019eca44df58be35786367ff8625449d24c29e
 };
