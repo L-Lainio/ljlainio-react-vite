@@ -24,7 +24,7 @@ function App() {
           <Projects />
           <Contact />
           <footer className="warm-footer py-6 text-center text-sm text-black dark:text-white">
-            <p>Maintained with ❤️ Made with love</p>
+            <p>Maintained with ❤️ Made by Lora</p>
           </footer>
         </div>
       </div>

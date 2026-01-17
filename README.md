@@ -9,8 +9,10 @@
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
 [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](#)
 [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#)
-[![Netlify Badge](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](#)
 [![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](#)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)](#)
+[![Netlify Badge](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](#)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2a8ee8a-81f2-4bd0-b918-05d0a06972bd/deploy-status)](https://app.netlify.com/sites/loralainio/deploys)
 
@@ -84,176 +86,79 @@ For this module challenge, I will deploy this application to Netlify. I will fol
 The task involves creating a React portfolio to showcase projects and skills, enabling collaboration with other developers. The portfolio must be deployed on Netlify and meet specific acceptance criteria. Employers can view the portfolio to assess candidates' skills in building single-page applications. The portfolio should include sections like About Me, Portfolio, Contact, and Resume, with specific features like navigation, project images with links, a contact form, and links to social profiles.
 
 
-## Deployed on netlify:
+## 🔗 Live Application
+**Deployed on Netlify:** [loralainio.netlify.app](https://loralainio.netlify.app/)
 
-[Netlify-Deployed-Site](https://loralainio.netlify.app/)
+---
 
+## 📸 Media & Walkthrough
 
-## My Screenshot & Walkthrough
+### App Walkthrough
+https://github.com/L-Lainio/ljlainio-react-vite/raw/main/src/assets/images/FormCarry-Contact%20-%20Copy.mp4
 
-![Walkthrough](/src/assets/images/Zight%20Recording%202024-7-25%20at%207.56.46%20PM.gif)
+---
 
-![Screenshot1](/src/assets/images/Zight%202024-7-25%20at%207.49.41%20PM.png)
+### Screenshots
+| Light Mode | Dark Mode | Experience Section |
+| :--- | :--- | :--- |
+| ![LightMode](./src/assets/images/LightMode.png) | ![DarkMode](./src/assets/images/DarkMode.png) | ![Experience](./src/assets/images/Experience.png) |
 
-![Screenshot2](/src/assets/images/Zight%202024-7-25%20at%207.49.52%20PM.png)
 
-![Screenshot3](/src/assets/images/Zight%202024-7-25%20at%207.50.01%20PM.png)
+## 🛠️ Technologies Used
+* **React + Vite:** Core framework and build tool for high-performance HMR.
+* **Tailwind CSS:** For responsive, utility-first UI styling.
+* **Framer Motion:** For advanced scroll-triggered and entrance animations.
+* **JavaScript (ES6+):** For dynamic rendering and logic.
+* **Docker:** Utilized for containerization to ensure environment consistency and mitigate security vulnerabilities.
+* **Netlify:** For automated CI/CD and production hosting.
 
-![Screenshot4](/src/assets/images/Zight%202024-7-25%20at%207.50.11%20PM.png)
+---
 
-![Screenshot5](/src/assets/images/Zight%202024-7-25%20at%207.50.27%20PM.png)
+## 🐳 Docker & Security Implementation
+To ensure data integrity and environment consistency, this project is designed to be containerized. Running the application within Docker helps identify and mitigate vulnerabilities within the dependency tree and the OS layer.
 
+**To build and run with Docker:**
+1. **Build the image:** `docker build -t react-portfolio .`
+2. **Run the container:** `docker run -p 3000:3000 react-portfolio`
 
-## Technologies-Used
+---
 
-The technologies used in this project include:
+## ⚙️ Installation & Usage
+This project utilizes **Vite**. The following scripts are available:
 
-React for building the single-page application
-Netlify for deployment
-HTML and CSS for structuring and styling the portfolio
-JavaScript for interactivity and functionality
-GitHub for version control and hosting the code repository
+### Local Setup
+1. **Clone the Repo:** `git clone https://github.com/L-Lainio/ljlainio-react-vite.git`
+2. **Install Dependencies:** `npm install`
+3. **Run Dev Server:** `npm run dev`
 
-## React + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project Scripts
+* `npm run dev`: Starts the local development server at `http://localhost:3000`.
+* `npm run build`: Bundles the app into the `dist` folder for production.
+* `npm run preview`: Previews the production build locally.
+* `npm run lint`: Checks for code quality and style issues.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Credits & Attribution
+Professional development relies on the community. I would like to credit the following sources for their inspiration and resources:
 
-# Getting Started with Create React App
+* **UI Design & Logic:** Guided by the [CompileTab YouTube Tutorial](https://www.youtube.com/watch?v=_63mEm3AMSY) by **Kevin Rush**.
+* **Project Assets:** Baseline constants and assets sourced from [kushald/react-portfolio-assets-kevin](https://github.com/kushald/react-portfolio-assets-kevin).
+* **Coursework:** Module 20 React Challenge (Week 11 class activities).
+* **Background Snippets:** Radial blur background logic inspired by [bg.ibelick.com](https://bg.ibelick.com/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 📜 License
+This application is covered under the **MIT License**.
 
-In the project directory, you can run:
+## 📬 Questions
+Have additional questions? 
+* **GitHub:** [L-Lainio](https://github.com/L-Lainio)
+* **LinkedIn:** [Lora Lainio](https://www.linkedin.com/in/loralainio)
+* **Email:** Reach out via the [Contact Section](https://loralainio.netlify.app/) of the live site.
 
-### `npm start`
+---
+© 2026 and beyond by Lora with 💖
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-As a web developer, being part of the community is key. You’ll create a unique portfolio using React to showcase your projects, making you stand out in job applications and freelance opportunities. This portfolio will be deployed to Netlify, giving potential employers a live view of your work.
-
-User Story
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
-Acceptance Criteria
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-...
-(The detailed criteria can be found in the project documentation, ensuring a comprehensive review of your portfolio features.)
-
-Mock-Up
-Here’s a quick look at how your portfolio will function:
-
-User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.
-
-Getting Started
-Set Up Your Portfolio: Use vite to build your portfolio, which will include:
-
-A Header component for consistent navigation.
-A Navigation component using Link from react-router-dom.
-Multiple instances of a Project component in the Portfolio section.
-A Footer component linking to your social profiles.
-Scaffold Your Vite Application:
-
-Open your command line.
-Run npm create vite, and follow the prompts to set up your React project.
-Install dependencies with npm install.
-Launch your development server with npm run dev.
-Further Customization (Recommended)
-Update package.json: Modify the scripts section for easier commands: json "scripts": { "dev": "vite", "start": "vite", "build": "vite build", "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0", "preview": "vite preview" },
-
-Edit vite.config.js: Ensure your configuration supports your preferred settings: js export default defineConfig({ plugins: [react()], server: { port: 3000, open: true } });
-
-Deployment
-Follow Netlify's deployment guide to deploy your application live. This will allow employers to view your work in action.
-
-Feel free to reach out if you have any questions or need further assistance while building your portfolio! Happy coding! 🎉
-
-
-## Credits
-
-Much of this application followed outline code found within the week 11 class activities.
-
-## Features
-
-Features of this application include the users ability to retrieve and save notes from/to a mock database.json file which will persist on page load unless deleted.
-
-## Contribution Guidelines
-
-Open to collaboration, if you choose to do so open an issue and modify any changes you would like to see on a feature branch and wait for approval before merging to the main branch.
-
-## License
-
-NOTICE: This application is covered under the MIT License
-
-## Questions
-
-Have additional questions? Click the links below to reach me through my GitHub account or Email address.
-
-[Link to Github](https://github.com/L-Lainio)
 

@@ -289,3 +289,12 @@
     }
   }
 }
+/* Custom transition timing for smoother animations */
+.transition-all {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Subtle glow effect in dark mode */
+.dark .max-w-3xl {
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.5);
+}

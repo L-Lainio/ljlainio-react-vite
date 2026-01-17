@@ -1,5 +1,6 @@
 import logo from "../assets/images/LJLLogo3.png";
-import aboutMeImg from "../assets/images/aboutMe.jpg";
+import logoDark from "../assets/images/LJLLogo3.png";
+import aboutMeImg from "../assets/images/ljlMe.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -26,7 +27,10 @@ const Navbar = () => {
     return (
         <nav className="mb-20 flex items-center justify-between py-6">
             <div className="flex flex-shrink-0 items-center">
-                <img className="m-2 w-20" src={logo} alt="logo" />
+                <div className="m-2 w-20">
+                    <img src={logo} alt="logo" className="dark:hidden" />
+                    <img src={logoDark} alt="logo" className="hidden dark:block" />
+                </div>
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl text-black dark:text-white">
                 <button onClick={toggleDarkMode} className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700">
