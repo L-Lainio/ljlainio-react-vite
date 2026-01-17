@@ -94,7 +94,7 @@ The task involves creating a React portfolio to showcase projects and skills, en
 ## 📸 Media & Walkthrough
 
 ### App Walkthrough
-https://github.com/L-Lainio/ljlainio-react-vite/raw/main/src/assets/images/FormCarry-Contact%20-%20Copy.mp4
+https://github.com/L-Lainio/ljlainio-react-vite/raw/main/src/assets/images/walkthrough.mp4
 
 ---
 
