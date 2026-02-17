@@ -152,13 +152,6 @@ Professional development relies on the community. I would like to credit the fol
 ## 📜 License
 This application is covered under the **MIT License**.
 
-## 📬 Questions
-Have additional questions? 
-* **GitHub:** [L-Lainio](https://github.com/L-Lainio)
-* **LinkedIn:** [Lora Lainio](https://www.linkedin.com/in/loralainio)
-* **Email:** Reach out via the [Contact Section](https://loralainio.netlify.app/) of the live site.
-
----
 © 2026 and beyond by Lora with 💖
 
 
